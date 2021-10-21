@@ -28,6 +28,8 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 591295cd5f5d94941a03995981cb232c, type: 3}
@@ -42,7 +44,6 @@ SpriteAtlas:
     - {fileID: 2800000, guid: da3e6bbb84c179140bc2ea270b6958bd, type: 3}
     - {fileID: 2800000, guid: 97c990d13571d614c9f638ee4e0a3473, type: 3}
     - {fileID: 2800000, guid: 7ae31a8180ce39742905ed117198b940, type: 3}
-    totalSpriteSurfaceArea: 1048576
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -73,5 +74,6 @@ SpriteAtlas:
   - desertYellowCactiForest00
   - plains00
   - base00
+  m_RenderDataMap: {}
   m_Tag: SquareTileSpriteAtlas
   m_IsVariant: 0
