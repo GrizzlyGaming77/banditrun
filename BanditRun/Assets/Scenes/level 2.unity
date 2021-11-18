@@ -2808,6 +2808,7 @@ GameObject:
   - component: {fileID: 2131147370}
   - component: {fileID: 2131147369}
   - component: {fileID: 2131147371}
+  - component: {fileID: 2131147372}
   m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
@@ -17040,8 +17041,8 @@ Tilemap:
   - first: {x: 17, y: -16, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -24341,7 +24342,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 17
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -26303,7 +26304,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 95648a3f21b5cea4284a0025a3eebd56, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 2ca2bc04a3688dc4ab41ad06bfc2445b, type: 2}
-  - m_RefCount: 2189
+  - m_RefCount: 2190
     m_Data: {fileID: 11400000, guid: 2d016263d32ddfd4daf46c0ddeeeaa2d, type: 2}
   - m_RefCount: 42
     m_Data: {fileID: 11400000, guid: 129b8d44277e04a4da2aaaef6c4fb58e, type: 2}
@@ -26331,7 +26332,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: a3ca319545d544b4c8a8934870557d41, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 10
+  - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: cd69dadac56951c4cb33d79d0d99fbd8, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 9e4f4955b20ae3743891a92c391e1e07, type: 2}
@@ -26350,14 +26351,14 @@ Tilemap:
     m_Data: {fileID: 21300062, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300056, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
-  - m_RefCount: 2189
+  - m_RefCount: 2190
     m_Data: {fileID: 21300012, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 42
     m_Data: {fileID: 21300002, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 21300050, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300034, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 21300072, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 0
@@ -26376,9 +26377,9 @@ Tilemap:
     m_Data: {fileID: 21300070, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 10
     m_Data: {fileID: 21300054, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 10
+  - m_RefCount: 1
+    m_Data: {fileID: 21300034, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
+  - m_RefCount: 9
     m_Data: {fileID: 21300064, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300042, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
@@ -26468,6 +26469,46 @@ EdgeCollider2D:
   - {x: 38.172653, y: -29.12282}
   - {x: 40.077896, y: -30.195726}
   - {x: 61.813797, y: -30.179352}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &2131147372
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131147367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 20.091492, y: -9.893833}
+  - {x: 20.061962, y: -13.836121}
+  - {x: 23.837479, y: -13.995158}
+  - {x: 23.931665, y: -15.958642}
+  - {x: 27.725447, y: -15.99773}
+  - {x: 27.872667, y: -17.863438}
+  - {x: 31.830715, y: -17.854633}
+  - {x: 31.890804, y: -19.959415}
+  - {x: 37.886784, y: -20.06107}
+  - {x: 38.039364, y: -21.99207}
+  - {x: 42.052193, y: -22.029905}
+  - {x: 42.0813, y: -24.12813}
+  - {x: 45.945724, y: -23.941809}
+  - {x: 46.089855, y: -25.84433}
+  - {x: 69.99904, y: -26.066713}
+  - {x: 69.99355, y: -10.138176}
+  - {x: 63.16956, y: -10.217442}
+  - {x: 37.46896, y: -10.288096}
+  - {x: 26.049261, y: -10.375135}
+  - {x: 20.288643, y: -10.134243}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
