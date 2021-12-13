@@ -25728,6 +25728,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: TX Village Props Road Lamp Light On
       objectReference: {fileID: 0}
+    - target: {fileID: 5782499274349899271, guid: 7b77bf4f78fb2ee4aaf374209ced2d99, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6839622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782499274349899271, guid: 7b77bf4f78fb2ee4aaf374209ced2d99, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782499274349899271, guid: 7b77bf4f78fb2ee4aaf374209ced2d99, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9970789
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782499274349899271, guid: 7b77bf4f78fb2ee4aaf374209ced2d99, type: 3}
+      propertyPath: m_Intensity
+      value: 0.22
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b77bf4f78fb2ee4aaf374209ced2d99, type: 3}
 --- !u!1001 &2772516798150783854
